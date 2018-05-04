@@ -1,3 +1,6 @@
 import os
-for file in os.listdir('D:\Folder'):
+
+#change this to a folder that has some files
+folderName = 'D:\Folder'
+for file in os.listdir(folderName):
   print file
